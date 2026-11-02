@@ -1,0 +1,25 @@
+HanyuStep — Make Me a Hanzi 105-character stroke subset
+
+Covered file: strokes-mvp.json (repository: data/content/strokes-mvp.json)
+License: Arphic Public License; full unmodified text in ARPHICPL.TXT.
+Upstream: https://github.com/skishore/makemeahanzi (graphics.txt)
+Original font sources: Arphic PL KaitiM GB and Arphic PL UKai.
+Original attribution: MAKE-ME-A-HANZI-COPYING.txt (graphics.txt section).
+License source: https://github.com/skishore/makemeahanzi/blob/master/APL/english/ARPHICPL.TXT
+License Git blob: c1aba41d3f5f38b323dbc4234aa3cf83c7a40faf
+
+Changes by HanyuStep:
+2026-08-31: selected the 105 characters required by the active Free-100
+curriculum; converted selected graphics.txt records to a character-keyed JSON
+object and added strokeCount, source and license metadata. Stroke paths and
+medians were preserved. Evidenced by repository commit
+1e7ee11362c27d2530a1ff25cd5f03079ea86e4c (2026-08-31T18:35:57Z).
+2026-11-02: added this modification notice, full license and per-record
+modificationNotice metadata. No characters, stroke paths or medians changed.
+
+This derivative subset is made available under the Arphic Public License.
+Recipients may use, copy, modify and redistribute it under that license.
+The license applies to these derivative data, not independent HanyuStep code.
+
+SHA-256 of the distributed strokes-mvp.json:
+56a3caa519140efcefa09b05bdcadb9da752e4e580efb41767848b3eab5debb5
